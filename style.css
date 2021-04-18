@@ -1,0 +1,275 @@
+.body {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.desk-top {
+  position: absolute;
+  height: 8px;
+  width: 500px;
+
+  margin-top: 280px;
+  left: 0;
+  right: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #c39b77;
+
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+}
+
+.display {
+  height: 80px;
+  width: 150px;
+
+  display: flex;
+  overflow: hidden;
+
+  background-color: gray;
+}
+
+.html {
+  height: 80px;
+  width: 75px;
+
+  margin-left: -23px;
+  padding-right: 47px;
+
+  font-size: 2px;
+  color: white;
+
+  overflow: hidden;
+
+  background-color: #222222;
+}
+
+.css {
+  height: 80px;
+  width: 72px;
+
+  font-size: 2px;
+  color: white;
+  padding-left: 3px;
+
+  overflow: hidden;
+
+  background-color: #222222;
+}
+
+.left-leg {
+  position: absolute;
+  height: 214px;
+  width: 10px;
+
+  margin-top: 287px;
+  margin-left: 500px;
+
+  background-color: #c39b77;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+  transform: rotate(3deg);
+}
+.right-leg {
+  position: absolute;
+  height: 214px;
+  width: 10px;
+
+  margin-top: 287px;
+  margin-left: 910px;
+
+  background-color: #c39b77;
+  clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+  transform: rotate(-3deg);
+}
+
+.mac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  height: 70px;
+  width: 105px;
+
+  margin-top: 205px;
+  margin-left: 510px;
+  background-color: #707070;
+
+  border-radius: 5px;
+}
+
+.mac-stand {
+  position: absolute;
+
+  height: 8px;
+  width: 30px;
+
+  margin-top: 272px;
+  margin-left: 548px;
+
+  background-color: silver;
+}
+
+.outer-div {
+  height: 500px;
+  width: 1500px;
+  background-color: white;
+}
+
+.screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  height: 90px;
+  width: 160px;
+
+  margin-top: 165px;
+
+  left: 0;
+  right: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 2px;
+
+  background-color: black;
+
+  z-index: 100;
+}
+
+.stand-lower {
+  position: absolute;
+
+  width: 80px;
+  height: 8px;
+
+  margin-top: 273px;
+
+  left: 0;
+  right: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  clip-path: polygon(5% 0, 95% 0, 100% 100%, 0% 100%);
+
+  background-color: black;
+}
+
+.stand-upper {
+  position: absolute;
+  height: 40px;
+  width: 20px;
+
+  margin-top: 240px;
+
+  left: 0;
+  right: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: black;
+}
+
+.xbox {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+
+  margin-top: 180px;
+  margin-left: 800px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.xbox-upper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 13px;
+  width: 97px;
+  background-color: #222222;
+}
+
+.xbox-middle {
+  height: 3px;
+  width: 90px;
+
+  margin-right: 1px;
+
+  background-color: black;
+}
+
+.xbox-lower {
+  height: 5px;
+  width: 95px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #222222;
+}
+
+.xbox-lower-left {
+  height: 4px;
+  width: 10px;
+
+  margin-left: 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  height: 2px;
+  width: 2px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.sensor {
+  height: 3px;
+  width: 6px;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.xbox-lower-right {
+  height: 4px;
+  width: 10px;
+
+  margin-right: 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-right {
+  height: 2px;
+  width: 2px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.usb {
+  height: 3px;
+  width: 6px;
+  background-color: black;
+}
