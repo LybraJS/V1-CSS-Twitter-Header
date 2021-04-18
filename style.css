@@ -63,6 +63,20 @@
   background-color: #222222;
 }
 
+.magic-keyboard {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  left: 0;
+  right: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: blue;
+}
+
 .left-leg {
   position: absolute;
   height: 214px;
